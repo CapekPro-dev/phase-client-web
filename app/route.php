@@ -5,12 +5,12 @@
    $get_requested_uri = $split_requested_uri[1];
    
    if($get_requested_uri == null || $get_requested_uri == ''){
-	   require_once './home.php';
+	   require_once './index.html';
    }
    else{
 	   switch ($get_requested_uri){
 		   case 'home':
-		      require_once './home.php';
+		      require_once './index.html';
 			  break;
 			  
 		   case 'support':
@@ -28,7 +28,7 @@
 			  break;
 			  
 		   default:
-		      require_once './404.php';
+		      require_once './404.html';
 			  break;
 	   }
    }
