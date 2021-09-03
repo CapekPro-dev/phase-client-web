@@ -14,14 +14,14 @@
 			  break;
 			  
 		   case 'support':
-		      require_once './support.php';
+		      require_once './support.html';
 			  break;
 			  
 		   case 'store':
-		      require_once './store.php';
+		      require_once './store.html';
 			  break;
 		   case 'download':
-			  require_once './download.php';
+			  require_once './download.html';
 			  break;
 		   case 'upload':
 			  require_once './index.php';
