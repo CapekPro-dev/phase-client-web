@@ -9,7 +9,7 @@
    }
    else{
 	   switch ($get_requested_uri){
-		   case 'home':
+		   case '/phase-client-web/home':
 		      require_once './index.html';
 			  break;
 			  
