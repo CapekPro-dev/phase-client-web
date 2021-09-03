@@ -4,12 +4,12 @@
    $split_requested_uri = explode("/phase-client-web/",$server_requested_uri);
    $get_requested_uri = $split_requested_uri[1];
    
-   if($get_requested_uri == null || $get_requested_uri == ''){
+   if($get_requested_uri == null || $get_requested_uri == '/phase-client-web/'){
 	   require_once './index.html';
    }
    else{
 	   switch ($get_requested_uri){
-		   case '/phase-client-web/home':
+		   case 'home':
 		      require_once './index.html';
 			  break;
 			  
