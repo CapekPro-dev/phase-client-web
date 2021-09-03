@@ -1,7 +1,7 @@
 <?php
 
    $server_requested_uri = $_SERVER['REQUEST_URI'];
-   $split_requested_uri = explode("/",$server_requested_uri);
+   $split_requested_uri = explode("/phase-client-web/",$server_requested_uri);
    $get_requested_uri = $split_requested_uri[1];
    
    if($get_requested_uri == null || $get_requested_uri == ''){
